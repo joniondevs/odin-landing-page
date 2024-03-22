@@ -1,3 +1,8 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 header{
     display: flex;
     flex-flow: row wrap;
@@ -27,6 +32,7 @@ header{
     margin: 0;
 }
 
+.hero p,
 .header-links a{
     font-size: 18px;
     color: #e5e7eb;
@@ -36,7 +42,7 @@ header{
 
 .hero{
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
@@ -51,9 +57,11 @@ header{
 
 .info-box{
     display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-start;
-    align-items: center;
+    flex-direction: column;
+}
+
+.hero-thumb{
+    background-color: lightgray;
 }
 
 .cards{
