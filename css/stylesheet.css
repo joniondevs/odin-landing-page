@@ -3,6 +3,7 @@ header{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    background-color: #1f2937;
 }
 
 .logo{
@@ -31,6 +32,7 @@ header{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    background-color: #1f2937;
 }
 
 .info-box{
@@ -47,9 +49,14 @@ header{
     align-items: center;
 }
 
+.testimonial{
+    background-color: #e5e7eb;
+}
+
 footer{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    background-color: #1f2937;
 }
