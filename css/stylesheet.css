@@ -34,7 +34,7 @@ header{
     text-decoration: none;
 }
 
-.intro{
+.hero{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
