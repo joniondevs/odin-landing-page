@@ -143,6 +143,9 @@ header{
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 350px;
 }
 
 .testimonial p{
