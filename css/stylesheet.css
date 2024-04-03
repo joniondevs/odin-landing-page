@@ -9,6 +9,7 @@ header{
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
+    padding-left: 10%;
 }
 
 .logo{
@@ -23,6 +24,7 @@ header{
     display: flex;
     flex-flow: row wrap;
     margin-left: auto;
+    padding-right: 10%;
     gap: 32px;
 }
 
